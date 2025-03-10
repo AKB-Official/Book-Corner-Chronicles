@@ -1,0 +1,105 @@
+/* COMMON CODE FOR INDEX PAGE */
+.big-boxes-containter, .box-container-two, .box-container-three, .box-container-four, .box-container-five, .box-container-six {
+    display: flex;
+}
+
+.main-body-of-container-large, .main-body-of-container-normal {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+
+.date-of-container-large, .date-of-container-normal {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #aeaeae;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.box-four-normal, .box-five-normal, .box-seven-normal, .box-eight-normal, .box-teen-normal, .box-eleven-normal, .box-thirten-normal, .box-fourteen-normal, .box-sixteen-normal, .box-seventeen-normal {
+    margin-left: 120px;
+}
+
+.box-container-two, .box-container-three, .box-container-four, .box-container-five, .box-container-six  {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.image-container-normal img, .image-container-large img {
+    border-radius: 10px 10px 0 0;
+}
+
+.text-container-large, .text-container-normal {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.text-container-large a, .text-container-normal a {
+    text-decoration: none;
+}
+
+/* END COMMON CODE FOR INDEX PAGE */
+
+/* LARGE BOXES */
+
+.big-boxes-containter {
+    margin-top: 70px;
+}
+
+.text-container-large {
+    background-color: #ffffff;
+    width: 500px;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.big-boxes-containter {
+    margin-left: 150px;
+}
+
+.box-two-large {
+    margin-left: 200px;
+}
+
+.image-container-large img {
+    width: 500px;
+    height: 530px;
+}
+
+/*  END LARGE BOXES */
+
+/* NORMAL BOXES */
+
+.text-container-normal {
+    background-color: #ffffff;
+    width: 320px;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.image-container-normal img {
+    width: 320px;
+    height: 350px;
+}
+
+/* END NORMAL BOXES */
+
+.hidden {
+    display: none;
+}
+
+/* BUTTON DESIGN */
+button {
+    width: 150px;
+    height: 80px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 650px;
+    background-color: #0A5955;
+    border: 2px solid rgb(82, 254, 197);
+    color: #2CB39F;
+}

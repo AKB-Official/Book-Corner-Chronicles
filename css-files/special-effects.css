@@ -1,0 +1,25 @@
+button:hover {
+    background-color: #2CB39F;
+    color: #ffffff;
+}
+
+.main-body-of-container-normal:hover, .date-of-container-normal:hover, .main-body-of-container-large:hover, .date-of-container-large:hover {
+    color: #2CB39F;
+}
+
+.subscribe-link:hover {
+    background: #2CB39F;
+    color: #000000;
+  }
+
+.header-name-thing a:hover, .about-header-button a:hover, .info-header-button a:hover, .interviews-header-button A:hover, .reviews-header-button a:hover, .contact-header-button a:hover {
+    color: #818181;
+}
+
+.without-pic-content a:hover {
+    color: #2CB39F;
+}
+
+.email-icon-contact:hover {
+    transform: scale(1.2); /* Increase size on hover */
+}
